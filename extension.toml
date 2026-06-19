@@ -1,5 +1,5 @@
-id = "ep-133-ko-ii"
-name = "EP-133 K.O. II"
+id = "ep-133"
+name = "EP-133"
 version = "0.0.1"
 schema_version = 1
 authors = ["Evgenii Sergeev"]

@@ -1,5 +1,5 @@
 <h3 align="center">
-	EP-133 K.O. II for <a href="https://zed.dev/">Zed</a>
+	EP-133 for <a href="https://zed.dev/">Zed</a>
 </h3>
 
 <p align="center">
@@ -28,12 +28,12 @@
 
 1. Open Zed.
 2. Open the command palette (<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>) and enter _zed: extensions_.
-3. Search for the _EP-133 K.O. II_ extension and install.
+3. Search for the _EP-133_ extension and install.
 4. Enter _theme selector: toggle_ in the command palette and select **EP-133 Display** or **EP-133 Chassis** in the dropdown.
 
 ## Development
 
-This theme is a hand-authored Zed theme (no generator). The theme definitions live in [`themes/ep-133-ko-ii.json`](themes/ep-133-ko-ii.json).
+This theme is a hand-authored Zed theme (no generator). The theme definitions live in [`themes/ep-133.json`](themes/ep-133.json).
 
 To test locally:
 
