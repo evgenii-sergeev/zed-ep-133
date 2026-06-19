@@ -14,10 +14,11 @@ jobs:
   release:
     runs-on: ubuntu-24.04-arm
     steps:
-      - uses: huacnlee/zed-extension-action@v1
+      - uses: huacnlee/zed-extension-action@v2
         with:
           extension-name: ep-133
           # Your fork of zed-industries/extensions; a PR is opened from here to upstream.
           push-to: evgenii-sergeev/extensions
         env:
+          # PAT with "repo" and "workflow" scopes.
           COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
