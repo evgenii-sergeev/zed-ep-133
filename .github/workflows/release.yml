@@ -1,0 +1,23 @@
+name: Publish to zed-industries/extensions
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - uses: huacnlee/zed-extension-action@v1
+        with:
+          extension-name: ep-133-ko-ii
+          # TODO: set this to your fork of zed-industries/extensions
+          push-to: your-name/zed-extensions
+        env:
+          COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}

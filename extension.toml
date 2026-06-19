@@ -1,0 +1,7 @@
+id = "ep-133-ko-ii"
+name = "EP-133 K.O. II"
+version = "0.0.1"
+schema_version = 1
+authors = ["Evgenii Sergeev"]
+description = "Inspired by Teenage Engineering"
+repository = "https://github.com/evgenii-sergeev/zed-ep-133"
