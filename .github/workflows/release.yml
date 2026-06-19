@@ -17,7 +17,7 @@ jobs:
       - uses: huacnlee/zed-extension-action@v1
         with:
           extension-name: ep-133-ko-ii
-          # TODO: set this to your fork of zed-industries/extensions
-          push-to: your-name/zed-extensions
+          # Your fork of zed-industries/extensions; a PR is opened from here to upstream.
+          push-to: evgenii-sergeev/extensions
         env:
           COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
