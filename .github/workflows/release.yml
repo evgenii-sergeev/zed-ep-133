@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: huacnlee/zed-extension-action@v2
         with:
-          extension-name: ep-133
+          extension-name: ep-133-theme
           # Your fork of zed-industries/extensions; a PR is opened from here to upstream.
           push-to: evgenii-sergeev/extensions
         env:
