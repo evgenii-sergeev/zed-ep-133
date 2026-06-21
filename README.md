@@ -12,6 +12,10 @@
 	A Zed theme inspired by the <a href="https://teenage.engineering/products/ep-133">EP&ndash;133 K.O. II</a> from Teenage Engineering.
 </p>
 
+<p align="center">
+	<img src="assets/preview.webp"/>
+</p>
+
 ## Previews
 
 <!-- Screenshots live in assets/ — see assets/README.md for the expected filenames & specs -->

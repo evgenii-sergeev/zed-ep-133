@@ -4,6 +4,7 @@ Screenshots referenced by the root `README.md`. Drop the files here with these e
 
 | File           | Theme            | Appearance |
 | -------------- | ---------------- | ---------- |
+| `preview.webp` | hero / banner    | any        |
 | `display.webp` | EP-133 Display   | dark       |
 | `chassis.webp` | EP-133 Chassis   | light      |
 
